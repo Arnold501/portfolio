@@ -2,7 +2,7 @@ import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen dark_background">
+    <main className="min-h-screen light_background">
       <HeroSection />
     </main>
   );
