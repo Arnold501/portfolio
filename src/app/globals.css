@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light_background{
+  background-image: linear-gradient(to right top, #ded6da, #dfcfda, #dfc9db, #ddc3de, #d8bee2, #d6c0e4, #d3c1e6, #d1c3e8, #d4cbe7, #d8d2e5, #dcdae3, #e1e1e1);
+}
+.dark_background{
+  background-image: linear-gradient(to right top, #131112, #191317, #1e161c, #221822, #251a28, #251c2a, #251d2c, #251f2e, #24202b, #222028, #222125, #212121);
+}
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
